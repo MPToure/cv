@@ -1,0 +1,200 @@
+header{
+    height:100%
+}
+h1{
+    text-align: center;
+   font-size: 45px;
+   font-weight: normal;
+}
+h2{
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    height: 350px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    
+    margin-top: -80px;
+}
+footer{
+    border-top: 2px solid #0c0c0c;
+    padding-top: 30px;
+    text-align: center;
+    height: 80px;
+    
+}
+footer p{
+    width: 90%;
+    margin: 0 auto;
+    color: #0a0909;
+    text-align: center;
+}
+body{
+    background-color:#ededed;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+nav{
+    width: 100%;
+    background-color: #424554;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: rgb(252, 247, 247);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.table{
+    display: table;
+    margin: 0 auto;
+
+}
+.menu-id:hover, .présentation{
+    border-top: 5px solid rgb(7, 94, 58);
+    background-color: rgba(94, 156, 116, 0.15);
+}
+.menu-exp:hover, .parcours{
+    border-top: 5px solid yellow;
+    background-color: rgba(241, 211, 79, 0.15);
+}.menu-hob:hover, .competences{
+    border-top: 5px solid #0070BB;
+    background-color: rgba(000, 112, 192, 0.15);
+}
+.menu-con:hover, .recommandation{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(228, 77, 38, 0.15)
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+section{
+    width: 100%;
+    min-height: 10px;
+    padding-bottom: 400px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sec{
+    margin: 0px 10%;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.right{
+    float: left;
+    width: 70%;
+}
+.cleft, .cright, .sousleft, .sousright{
+    width: 50%;
+    float: left;
+}
+.sec::after, .exp::after, .reco::after{
+    content:"";
+    display: none;
+    clear: both;
+}
+
+@media screen and (max-width:780px) {
+    header{
+        height: 50px;
+    }
+    h1{
+        font-size: 28px;
+        margin: 20px 0px 0px 0px;
+    }
+    nav li a{
+        font-size: 12px;
+        padding: 10px;
+    }
+    nav li:hover a{
+        padding: 5px 10px 10px 10px;
+    }
+}
+/*experiences*/
+.orange{
+    border-top: 5px solid #e47d26;
+    background-color: rgba(223, 117, 38, 0.15);
+    margin-bottom: 0px;
+}
+.rose{
+    border-top: 5px solid #e44d96;
+    background-color: rgba(228, 77, 128, 0.15);
+    margin-bottom: 0px;
+}
+.marron{
+    border-top: 5px solid rgb(128, 173, 183);
+    background-color: rgba(63, 132, 141, 0.15);
+    margin-bottom: 0px;
+}
+.verte{
+    border-top: 5px solid rgb(11, 82, 57);
+    background-color: rgba(70, 125, 95, 0.15);
+    margin-bottom: 0px;
+}
+.bleu{
+    border-top: 5px solid rgb(17, 5, 87);
+    background-color: rgba(89, 91, 154, 0.15);
+    margin-bottom: 0px;
+}
+.verta{
+    border-top: 5px solid rgb(2, 33, 16);
+    background-color: rgba(133, 221, 165, 0.15);
+    margin-bottom: 0px;
+}
+.leftexp{
+    width: 45%;
+    float: left;
+}
+.rightexp{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+.leftexp img{
+    width: 100%;
+    max-width: 400px;
+}
+/*hobbie*/
+.ecri{
+    border-top: 5px solid #5f6;
+    background-color: rgba(70, 240, 80, 0.15);
+}
+.spor{
+    border-top: 5px solid rgb(15, 3, 49);
+    background-color: rgba(152, 128, 178, 0.15);
+}
+.excu{
+    border-top: 5px solid rgb(44, 2, 19);
+    background-color: rgba(228, 115, 185, 0.15);
+}
+.voya{
+    border-top: 5px solid rgb(190, 221, 16);
+    background-color: rgba(200, 221, 66, 0.15);
+}
+.mod{
+    border-top: 5px solid rgb(203, 77, 10);
+    background-color: rgba(151, 70, 26, 0.15);
+}
+/*hobbie*/
+.conta{
+    border-top: 5px solid #e44d26;
+    background-color: rgba(221, 143, 55, 0.15);
+    font-size: large;
+    
+}
